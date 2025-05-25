@@ -82,13 +82,3 @@ IPsec VPN을 구현하여 높은 수준의 보안을 갖춘 VPN 터널링을 구
 
 <br>
 
-**Trouble** : OC CLI가 OpenShift까지 가지 않는 현상
-
-**Processing 1** : 3일간 혼자 삽질 (AWS EC2 라우팅 테이블 점검, CGW의 라우팅 테이블 점검, Ping Test,,,)
-
-**Processing 2** : 그래도 해결 되지 않자, **팀원들에게 문제 공유 및 해결 방안 모색** -> Bastion EC2를 Cluster VPC에 하나 더 두자!
-<br><br>
-
-**Result** : Cluster VPC에서 OC CLI로 OpenShift 제어 성공!  
-<br><br>
-
